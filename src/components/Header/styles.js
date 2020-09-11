@@ -11,8 +11,8 @@ export const Container = styled.header`
         position: relative;
     }
 
-    a:last-child {
-        margin-left: 10px;
+    a:not(:last-child) {
+        margin-right: 8px;
     }
 
     @media (max-width: 800px) {

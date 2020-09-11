@@ -8,7 +8,7 @@ import Badge from '../Badge';
 const Header = ({cartLength, isHome}) => {
     return (
         <Container>
-            <h1>Logo</h1>
+            <h1>Ramos</h1>
             <nav>
                 {!isHome && <Button to="/">{'<< Voltar para lista'}</Button>}
                 <Badge count={cartLength}>
