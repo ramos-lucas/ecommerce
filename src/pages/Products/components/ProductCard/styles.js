@@ -5,7 +5,8 @@ export const Container = styled.div`
     background-color: var(--color-white);
     color: var(--color-black);
     box-shadow: var(--panel-shadow);
-
+    display: flex;
+    flex-direction: column;
     img {
         width: 100%;
         border-top-left-radius: 8px;
@@ -19,11 +20,18 @@ export const Container = styled.div`
     }
 `;
 
-export const ProductInfo = styled.div`
+export const PriceContainer = styled.div`
     padding: 8px;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 `;
 
 export const Price = styled.span`
-    float: right;
-    margin-top: 8px;
+    text-align: right;
+`;
+
+export const Title = styled.h3`
+    padding: 8px;
 `;
